@@ -1,0 +1,18 @@
+body {
+	background-color: #aff;
+}
+
+div {
+	border: 1px solid #000;
+	margin: 10px;
+	padding: 40px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	text-decoration: underline;
+}
