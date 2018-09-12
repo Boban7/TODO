@@ -14,5 +14,19 @@ ul {
 }
 
 li {
-	text-decoration: underline;
+	margin: 5px;
+}
+
+.hide {
+	display: none;
+}
+
+span {
+	font-size: 250%;
+}
+
+#toDelete {
+	position: fixed;
+	background-color: red;
+	right: 100px;
 }

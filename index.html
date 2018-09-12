@@ -6,10 +6,11 @@
 </head>
 <body onload="loadItemFromLocalStorage()">
 	<div id="main">
+		<button id="toDelete" onclick="clearLocalStorage()">Clear Local Storage</button>
 		<h1>TODO list</h1>
 		<button id="buttonAdd">Add</button>
-		<p>List is empty</p>
-		<ul id='parenth'></ul>
+		<p id="empty">List is empty</p>
+		<ul id="parent"></ul>
 	</div>
 	<div id="new">
 		<label>New item:</label>
