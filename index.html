@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TODO</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body onload="loadItemFromLocalStorage()">
+	<div id="main">
+		<button id="toDelete" onclick="clearLocalStorage()">Clear Local Storage</button>
+		<h1>TODO list</h1>
+		<button id="buttonAdd">Add</button>
+		<p id="empty">List is empty</p>
+		<ul id="parent"></ul>
+	</div>
+	<div id="add"> <!--//add new-->
+		<label>New item:</label>
+		<input id="newInput" value="item ">
+		<input id="newSubmit" type="submit" value="Submit">
+		<input id="newCancel" type="submit" value="Cancel">
+	</div>
+	<div id="modify">
+		<label>Modify:</label>
+		<input id="modify">
+		<input id="modifySubmit" type="submit" value="Submit">
+		<input id="modifyCancel" type="submit" value="Cancel">
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

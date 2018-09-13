@@ -1,0 +1,32 @@
+body {
+	background-color: #aff;
+}
+
+div {
+	border: 1px solid #000;
+	margin: 10px;
+	padding: 40px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin: 5px;
+}
+
+.hide {
+	display: none;
+}
+
+span {
+	font-size: 250%;
+}
+
+#toDelete {
+	position: fixed;
+	background-color: red;
+	right: 100px;
+}
