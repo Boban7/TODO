@@ -41,6 +41,10 @@ function addToLocalStorage() {
 
 function loadItemFromLocalStorage() {
 	TodoItems = JSON.parse(localStorage.getItem('TodoItems'));
-	console.log(TodoItems);
+	//console.log(TodoItems);
 	TodoItems.forEach(renderItemFromObject);
+}
+
+function deleteItem(event) {
+	event.target.parentElement.remove();
 }

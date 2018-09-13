@@ -14,5 +14,16 @@ ul {
 }
 
 li {
-	text-decoration: underline;
+	border-bottom: 2px dashed blue;
+	margin-bottom: 5px;
+}
+
+li::before {
+	content: 'V   ';
+	color: grey;
+}
+
+li::after {
+	content: ' X';
+	color: red;
 }
